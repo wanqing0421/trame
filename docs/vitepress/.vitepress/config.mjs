@@ -77,6 +77,7 @@ export default defineConfig({
             { text: 'Introduction', link: '/guide/versions/' },
             { text: 'From 1 to 2', link: '/guide/versions/trame_v1-2' },
             { text: 'From 2 to 3', link: '/guide/versions/trame_v2-3' },
+            { text: 'Features', link: '/guide/versions/features' },
           ]
         },
         {
@@ -147,6 +148,7 @@ export default defineConfig({
         {
           text: 'VTK',
           items: [
+            { text: 'WASM', link: '/examples/vtk/wasm' },
             { text: 'Finite Element Analysis', link: '/examples/vtk/fea' },
             { text: 'Multi-Filters', link: '/examples/vtk/multi' },
             { text: 'Selection', link: '/examples/vtk/selection' },

@@ -1,6 +1,201 @@
 # CHANGELOG
 
 
+## v3.10.2 (2025-06-06)
+
+### Bug Fixes
+
+- **assets**: Expose download_file_from_google_drive
+  ([`351d13b`](https://github.com/Kitware/trame/commit/351d13b7a44e7606bd0acef01abb6f595e801593))
+
+### Continuous Integration
+
+- Try to fix rtd
+  ([`bd48e8b`](https://github.com/Kitware/trame/commit/bd48e8bfb9b6557a871c0c31b0aceef7381e5ce7))
+
+### Documentation
+
+- Update basic example with new TrameApp
+  ([`3a7f8f2`](https://github.com/Kitware/trame/commit/3a7f8f2e9740eb243018a4fb63f784e7e82b8124))
+
+- Update cone docker app image
+  ([`36be943`](https://github.com/Kitware/trame/commit/36be9438d2d9063659c8f0f20731b08985befe91))
+
+- Update plotly and docker
+  ([`12291ec`](https://github.com/Kitware/trame/commit/12291ec655c99c05b0f07ba379b5f76b8c84af24))
+
+- Upgrade sample code on website
+  ([`615c85f`](https://github.com/Kitware/trame/commit/615c85f02b733f6cc69bf5c4fb7cad6b6b3dd242))
+
+- **jupyter**: Update example with TrameApp
+  ([`8b4cf3a`](https://github.com/Kitware/trame/commit/8b4cf3a28ee511c5d70a02f1020dcda73e57dd24))
+
+- **website**: Add activity section and update news
+  ([`1361bbc`](https://github.com/Kitware/trame/commit/1361bbc2c76607fe8f110beac3aeeb5ccc780f65))
+
+
+## v3.10.1 (2025-05-28)
+
+### Bug Fixes
+
+- **vtk**: Return import error
+  ([`73b9a34`](https://github.com/Kitware/trame/commit/73b9a34c63f104e450728fae607d490a886a2bf1))
+
+
+## v3.10.0 (2025-05-28)
+
+### Features
+
+- **vtk**: Add tool for displaying rendering capabilities
+  ([`e644c0f`](https://github.com/Kitware/trame/commit/e644c0f3ba0a58eca78c7bcb2e04cf4cbea3dcbb))
+
+
+## v3.9.1 (2025-05-27)
+
+### Bug Fixes
+
+- **common**: Update dep version on trame-common
+  ([`f72ea0e`](https://github.com/Kitware/trame/commit/f72ea0e62a5afc461428dd13b22ed2538c733716))
+
+### Chores
+
+- **deps-dev**: Bump vite from 4.5.11 to 4.5.13 in /docs/vitepress
+  ([`f2f2a04`](https://github.com/Kitware/trame/commit/f2f2a0499f5835f652cc36d8401ba5bd6ba7a159))
+
+Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 4.5.11 to 4.5.13. -
+  [Release notes](https://github.com/vitejs/vite/releases) -
+  [Changelog](https://github.com/vitejs/vite/blob/v4.5.13/packages/vite/CHANGELOG.md) -
+  [Commits](https://github.com/vitejs/vite/commits/v4.5.13/packages/vite)
+
+--- updated-dependencies: - dependency-name: vite dependency-version: 4.5.13
+
+dependency-type: indirect
+
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+- **deps-dev**: Bump vite from 4.5.13 to 4.5.14 in /docs/vitepress
+  ([`a7d19b8`](https://github.com/Kitware/trame/commit/a7d19b878a3622b8135c5c19e5617af3d9c5ce36))
+
+Bumps [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) from 4.5.13 to 4.5.14. -
+  [Release notes](https://github.com/vitejs/vite/releases) -
+  [Changelog](https://github.com/vitejs/vite/blob/v4.5.14/packages/vite/CHANGELOG.md) -
+  [Commits](https://github.com/vitejs/vite/commits/v4.5.14/packages/vite)
+
+--- updated-dependencies: - dependency-name: vite dependency-version: 4.5.14
+
+dependency-type: indirect
+
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+- **docker**: Add option to configure launcher timeout
+  ([`9dd07cc`](https://github.com/Kitware/trame/commit/9dd07ccdde520a5bc5b7fbc53b5a60e2515ba9fb))
+
+### Continuous Integration
+
+- Make docker.yml exec manual
+  ([`6898ffa`](https://github.com/Kitware/trame/commit/6898ffafccc613094f6794038578e8030ee913a5))
+
+- **docker**: Add uv setup
+  ([`ace80cd`](https://github.com/Kitware/trame/commit/ace80cd33466c78a7529a91f221bd0d00fb52d18))
+
+### Documentation
+
+- Add trame-alerts in known available widgets
+  ([`9fd77df`](https://github.com/Kitware/trame/commit/9fd77dfec4118920710ccefa4415451f0299cc04))
+
+- Update website
+  ([`eca8cb7`](https://github.com/Kitware/trame/commit/eca8cb7364abc2525f8ac603e65a1696610ce530))
+
+- **html**: Precise the usage of parentheses for expressions
+  ([`081dbe9`](https://github.com/Kitware/trame/commit/081dbe9f3ab06554cb43b2fb0a6abd6f8f6b686f))
+
+- **wasm**: Add example
+  ([`8afb47b`](https://github.com/Kitware/trame/commit/8afb47bcfe14e9c2952772bffde1d25a1ea0add1))
+
+- **wasm**: Add example
+  ([`e39eb87`](https://github.com/Kitware/trame/commit/e39eb877e166bfcf38ee33fe64e476933ef2d87a))
+
+- **wasm**: Add example
+  ([`b60b429`](https://github.com/Kitware/trame/commit/b60b4295061e32a16f441fdf0bc6f4834fa460f9))
+
+- **wasm**: Add example
+  ([`9fee106`](https://github.com/Kitware/trame/commit/9fee106efd27d56bacd0948ecbef4104554f701f))
+
+- **wasm**: Add example
+  ([`6646477`](https://github.com/Kitware/trame/commit/66464776455da64f542ea834af19fafc4549230f))
+
+
+## v3.9.0 (2025-04-25)
+
+### Bug Fixes
+
+- **client**: Bump client to get v_on
+  ([`863c052`](https://github.com/Kitware/trame/commit/863c0527231bf46d5acafcf3f977e66ff93409a7))
+
+- **import**: Circular import in trame.app
+  ([`61c5960`](https://github.com/Kitware/trame/commit/61c59601d86ec58f5412c08b8fd41aab868f7006))
+
+### Code Style
+
+- **ruff**: Import sort
+  ([`b7a4ce8`](https://github.com/Kitware/trame/commit/b7a4ce87a6f95d4cb32d20fa722b9f7c63aab781))
+
+- **ruff**: Reformat helper scripts
+  ([`5190d77`](https://github.com/Kitware/trame/commit/5190d774855ab51795924597e3943abfaa412ed0))
+
+### Documentation
+
+- **discussion**: Add example 707
+  ([`a684a5b`](https://github.com/Kitware/trame/commit/a684a5b0a6269919336afd0c1c35f794e31fc459))
+
+- **examples**: Fix image path in readmes
+  ([`37a9e38`](https://github.com/Kitware/trame/commit/37a9e38e3d762b77ddce7cc9bc6f53f4f218611d))
+
+- **examples**: Images
+  ([`0c154b2`](https://github.com/Kitware/trame/commit/0c154b29524075dd616057bf5d3d35c22f7fe8bb))
+
+- **examples**: Images
+  ([`9c7618b`](https://github.com/Kitware/trame/commit/9c7618b9313646c0b6a05dd1cbe396125f5cb6a2))
+
+- **examples**: Images
+  ([`0bc5c30`](https://github.com/Kitware/trame/commit/0bc5c30b7c77e48999a283cbef475ad5eb163eb8))
+
+- **examples**: Images
+  ([`26c69da`](https://github.com/Kitware/trame/commit/26c69dace91a34d42bb2a92fb6a83e496a8bf120))
+
+- **examples**: Images
+  ([`daed428`](https://github.com/Kitware/trame/commit/daed428b41cc254dce79c4abb07a6f736fc90b9d))
+
+- **examples**: Reformat using ruff and sorting import
+  ([`74b0276`](https://github.com/Kitware/trame/commit/74b0276384e001ded22b91f182b5114e79e597b3))
+
+### Features
+
+- **common**: Leverage trame-common for utility class/function
+  ([`61b60a9`](https://github.com/Kitware/trame/commit/61b60a9b5e5f669ea2d89ea0fd005c2423809b24))
+
+__New Features__: - Add dependency to trame-common for providing generic classes that can be
+  relevant across trame packages. This includes assets handling, execution helper (throttle, async
+  task), decorators and abstract classes for building components or apps. - Expose new TrameApp and
+  TrameComponent classes from trame.app to simplify the creation of trame pieces when using
+  inheritance instead of the @TrameApp() decorator.
+
+__Deprecation and cleanup__ - trame.app.dev should be deprecated/removed but for now we just remove
+  a method that has been broken for quite some time. In general that package is fairly advanced and
+  internal. It should not be needed by 99.99% of folks. - trame.app.jupyter has been removed since
+  the Jupyter integration is directly part of the layouts and that package should not be used
+  anymore.
+
+### Testing
+
+- Update endlines
+  ([`834fab6`](https://github.com/Kitware/trame/commit/834fab6818d2e7d812f9129d803bc59695f308c1))
+
+
 ## v3.8.2 (2025-04-10)
 
 ### Bug Fixes
